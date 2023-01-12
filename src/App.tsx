@@ -1,11 +1,7 @@
-import { Container, Heading } from '@chakra-ui/react'
-
-function App() {
+const App = () => {
   return (
     <div>
-      <Container>
-        <Heading>Hello, There</Heading>
-      </Container>
+      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
     </div>
   )
 }
